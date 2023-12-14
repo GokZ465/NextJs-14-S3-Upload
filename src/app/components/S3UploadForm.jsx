@@ -158,11 +158,7 @@ const UploadForm = () => {
 
         <div>
 
-          <label>
-
-            Upload File:
-
-            <input type="file" accept="image/*" onChange={handleFileChange} />
+          <label>Upload File <input type="file" accept="image/*" onChange={handleFileChange} />
 
           </label>
 
@@ -178,11 +174,7 @@ const UploadForm = () => {
 
         <div>
 
-          <label>
-
-            Retrieve File (Object Key):
-
-            <input type="text" value={objectKey} onChange={handleObjectKeyChange} />
+          <label>Retrieve File (Object Key): <input type="text" value={objectKey} onChange={handleObjectKeyChange} />
 
           </label>
 
